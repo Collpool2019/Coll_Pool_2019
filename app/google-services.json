@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "609445212751",
+    "firebase_url": "https://collpool2019-2fe22.firebaseio.com",
+    "project_id": "collpool2019-2fe22",
+    "storage_bucket": "collpool2019-2fe22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609445212751:android:b4bc76812d268be4",
+        "android_client_info": {
+          "package_name": "com.example.cpgui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609445212751-p8jdpa18i8ddvjjscuf0eeeetg6bgfid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cpgui",
+            "certificate_hash": "5c8a217406e92680a878ba21cc62f250278addb6"
+          }
+        },
+        {
+          "client_id": "609445212751-t5r9f6hrh0tonp9qo428pn7l01i93lru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cpgui",
+            "certificate_hash": "1ecacf12623fa4b8eab10c47580e8d893751ad10"
+          }
+        },
+        {
+          "client_id": "609445212751-5bqm3rijd1kheq92n61s5i566v034v7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAed5oNRaezl9-b4n2nIbijx3YUGY2NzVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609445212751-5bqm3rijd1kheq92n61s5i566v034v7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
