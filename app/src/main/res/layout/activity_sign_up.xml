@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
 
             android:layout_marginTop="30dp"
-            android:layout_marginBottom="108dp"
+            android:layout_marginBottom="30dp"
             android:autofillHints=""
             android:hint="@string/confirm_password"
             android:imeActionLabel="@string/action_sign_in_short"
