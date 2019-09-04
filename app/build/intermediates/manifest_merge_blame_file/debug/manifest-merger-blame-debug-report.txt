@@ -11,7 +11,7 @@
 9-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:5:5-22:19
+11-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:5:5-23:19
 12        android:allowBackup="true"
 12-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,37 +28,40 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.cpgui.activity_login" />
-21-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:12:9-61
-21-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:12:19-49
-22        <activity
-22-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:13:9-21:20
-23            android:name="com.example.cpgui.MainActivity"
-23-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:14:13-41
-24            android:screenOrientation="portrait" >
-24-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:15:13-49
-25            <intent-filter>
-25-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:16:13-20:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:17:17-69
-26-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:17:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:19:17-77
-28-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:19:27-74
-29            </intent-filter>
-30        </activity>
-31
-32        <provider
-32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nishi\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-33            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nishi\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-34            android:authorities="com.example.cpgui.lifecycle-process"
-34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nishi\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-35            android:exported="false"
-35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nishi\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-36            android:multiprocess="true" />
-36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nishi\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-37    </application>
-38
-39</manifest>
+21        <activity android:name="com.example.cpgui.SignUp" />
+21-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:12:9-53
+21-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:12:19-41
+22        <activity android:name="com.example.cpgui.activity_login" />
+22-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:13:9-52
+22-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:13:19-49
+23        <activity
+23-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:14:9-22:20
+24            android:name="com.example.cpgui.MainActivity"
+24-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:15:13-41
+25            android:screenOrientation="portrait" >
+25-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:16:13-49
+26            <intent-filter>
+26-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:18:17-69
+27-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:20:17-77
+29-->C:\Users\Nishi\Downloads\CPgui-20190901T101106Z-001\CPgui\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nishi\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+34            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nishi\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+35            android:authorities="com.example.cpgui.lifecycle-process"
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nishi\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+36            android:exported="false"
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nishi\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+37            android:multiprocess="true" />
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nishi\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+38    </application>
+39
+40</manifest>

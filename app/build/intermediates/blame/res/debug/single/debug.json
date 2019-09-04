@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_header.xml.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
@@ -108,12 +108,12 @@
         "source": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_fab_ripple_color.xml.flat",
@@ -176,12 +176,12 @@
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\72b2b92ec4ab73ff21fb9bc348de3b22\\core-1.0.1\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_separator.xml.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\72b2b92ec4ab73ff21fb9bc348de3b22\\core-1.0.1\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -192,12 +192,12 @@
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
@@ -208,16 +208,16 @@
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_show_motion_spec.xml.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\animator\\mtrl_fab_show_motion_spec.xml"
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar_include.xml.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_show_motion_spec.xml.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\animator\\mtrl_fab_show_motion_spec.xml"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
@@ -236,12 +236,12 @@
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\72b2b92ec4ab73ff21fb9bc348de3b22\\core-1.0.1\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\72b2b92ec4ab73ff21fb9bc348de3b22\\core-1.0.1\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
@@ -264,32 +264,32 @@
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_linear_out_slow_in.xml.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\interpolator-v21\\mtrl_linear_out_slow_in.xml"
     },
     {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_hide_motion_spec.xml.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\animator\\mtrl_fab_hide_motion_spec.xml"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -360,12 +360,12 @@
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -392,12 +392,12 @@
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -528,12 +528,12 @@
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\abc_tint_edittext.xml"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\72b2b92ec4ab73ff21fb9bc348de3b22\\core-1.0.1\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -564,12 +564,12 @@
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
-        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_item_tint.xml.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\color\\mtrl_bottom_nav_item_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
@@ -1026,6 +1026,10 @@
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
         "merged": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",

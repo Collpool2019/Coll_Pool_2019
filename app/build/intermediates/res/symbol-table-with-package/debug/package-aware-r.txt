@@ -1075,6 +1075,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id confirm_password
 id container
 id content
 id contentPanel
@@ -1091,6 +1092,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id editText
 id edit_query
 id end
 id enterAlways
@@ -1181,6 +1183,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signup
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1282,6 +1285,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_sign_up
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1356,6 +1360,7 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string confirm_password
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior

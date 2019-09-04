@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.cpgui.SignUp" />
         <activity android:name="com.example.cpgui.activity_login" />
         <activity
             android:name="com.example.cpgui.MainActivity"
