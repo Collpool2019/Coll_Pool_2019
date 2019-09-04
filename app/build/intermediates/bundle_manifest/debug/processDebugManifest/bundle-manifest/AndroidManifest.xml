@@ -18,18 +18,13 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.cpgui.Trial" />
-        <activity
-            android:name="com.example.cpgui.SignUp"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.example.cpgui.activity_login"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.example.cpgui.MainActivity"
-            android:screenOrientation="portrait" >
+        <activity android:name="com.example.cpgui.SignUp" />
+        <activity android:name="com.example.cpgui.activity_login" />
+        <activity android:name="com.example.cpgui.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
