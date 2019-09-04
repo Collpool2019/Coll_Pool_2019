@@ -18,14 +18,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.example.cpgui.ui.login.LoginActivity"
-            android:label="@string/title_activity_login"
-            android:parentActivityName="com.example.cpgui.MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.cpgui.MainActivity" />
-        </activity>
+        <activity android:name="com.example.cpgui.activity_login" />
         <activity
             android:name="com.example.cpgui.MainActivity"
             android:screenOrientation="portrait" >

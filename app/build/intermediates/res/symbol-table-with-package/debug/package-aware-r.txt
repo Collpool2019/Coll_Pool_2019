@@ -563,6 +563,7 @@ bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
+color Secondary
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -1113,7 +1114,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id imageView2
 id info
 id invisible
@@ -1126,7 +1126,6 @@ id line1
 id line3
 id listMode
 id list_item
-id loading
 id login
 id masked
 id message
