@@ -1069,6 +1069,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pp1
+drawable symbollogin
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1111,8 +1112,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
-id button3
 id buttonPanel
 id cancel_action
 id center
@@ -1181,6 +1180,7 @@ id line3
 id listMode
 id list_item
 id login
+id login_initial
 id masked
 id media_actions
 id message
@@ -1237,6 +1237,7 @@ id showCustom
 id showHome
 id showTitle
 id signup
+id singup_initial
 id smallLabel
 id snackbar_action
 id snackbar_text
