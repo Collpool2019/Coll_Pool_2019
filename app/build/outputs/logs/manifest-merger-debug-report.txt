@@ -94,11 +94,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ra
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\rajpa\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\rajpa\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
 	android:screenOrientation
-		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:12:9-45
+		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:10:9-45
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] C:\Users\rajpa\.gradle\caches\transforms-2\files-2.1\241b89e013db22b59a4d22b3f2fa0913\core-1.0.1\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
 		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
@@ -108,19 +108,23 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\rajpa\.gradle\
 	android:allowBackup
 		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.cpgui.FinalSpace
+ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:13:9-57
+	android:name
+		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:13:19-45
 activity#com.example.cpgui.SignUp
-ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:13:9-43
+ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:14:9-44
 	android:name
-		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:13:19-41
+		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:14:19-41
 activity#com.example.cpgui.activity_login
-ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:14:9-52
+ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:15:9-52
 	android:name
-		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:14:19-49
+		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:15:19-49
 activity#com.example.cpgui.MainActivity
-ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:15:9-22:20
+ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
