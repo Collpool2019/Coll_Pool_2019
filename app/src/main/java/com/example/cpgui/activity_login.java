@@ -20,7 +20,6 @@ public class activity_login extends AppCompatActivity {
     private EditText Username,Password;
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
-    private int counter=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,23 +29,10 @@ public class activity_login extends AppCompatActivity {
         Password=(EditText)findViewById(R.id.password);
         progressDialog=new ProgressDialog(this);
         firebaseAuth=FirebaseAuth.getInstance();
-        FirebaseUser firebaseUser=firebaseAuth.getCurrentUser();
-        if(firebaseUser!=null)
-        {
-            if(firebaseUser.isEmailVerified()) {
-                finish();
-                startActivity(new Intent(activity_login.this, FinalSpace.class));
-            }
-            else
-            {
-                Toast.makeText(activity_login.this,"Please verify your email address",Toast.LENGTH_SHORT).show();
-            }
-        }
     }
     public void onStartLogin(View view)
     {
         authenticate(Username.getText().toString(),Password.getText().toString());
-        counter++;
     }
     private boolean validate()
     {
@@ -86,15 +72,15 @@ public class activity_login extends AppCompatActivity {
                             Toast.makeText(activity_login.this,"You have loged in successfully",Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(activity_login.this,FinalSpace.class));
                         }
-                        else if(counter>0&&!(firebaseUser.isEmailVerified()))
+                        else
                         {
                             Toast.makeText(activity_login.this,"Please verify your email address",Toast.LENGTH_SHORT).show();
                         }
                     }
-                    else{
+                    /*else{
                         progressDialog.dismiss();
                         Toast.makeText(activity_login.this,"You are signed in",Toast.LENGTH_SHORT).show();
-                    }
+                    }*/
                 }
             });
         }

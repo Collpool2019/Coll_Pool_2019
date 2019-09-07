@@ -49,6 +49,7 @@ public class SignUp extends AppCompatActivity {
                    progressDialog.dismiss();
                    FirebaseUser firebaseUser=auth.getCurrentUser();
                    firebaseUser.sendEmailVerification();
+                   auth.signOut();
                    startActivity(new Intent(SignUp.this,MainActivity.class));
                }
                else {
@@ -72,7 +73,7 @@ public class SignUp extends AppCompatActivity {
          {
              Toast.makeText(SignUp.this,"We only accept Nirma domain id's for security purpose",Toast.LENGTH_SHORT).show();
          }
-         else if((password.getText().toString().length()<8)||!(password.getText().toString().contains("\\d")))
+         else if(password.getText().toString().length()<8)//||!(password.getText().toString().contains("\\d")))
          {
              Toast.makeText(SignUp.this,"Password must be 8 characters long and have digits in it",Toast.LENGTH_SHORT).show();
          }
