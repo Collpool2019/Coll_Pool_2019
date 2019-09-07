@@ -15,6 +15,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SignUp extends AppCompatActivity {
     private EditText name,rollnumber,emailadd,password,cpassword;
@@ -46,6 +47,8 @@ public class SignUp extends AppCompatActivity {
                {
                    Toast.makeText(SignUp.this,"You have been successfully verified",Toast.LENGTH_SHORT).show();
                    progressDialog.dismiss();
+                   FirebaseUser firebaseUser=auth.getCurrentUser();
+                   firebaseUser.sendEmailVerification();
                    startActivity(new Intent(SignUp.this,MainActivity.class));
                }
                else {
@@ -69,10 +72,10 @@ public class SignUp extends AppCompatActivity {
          {
              Toast.makeText(SignUp.this,"We only accept Nirma domain id's for security purpose",Toast.LENGTH_SHORT).show();
          }
-         /*else if(!emailadd.getText().toString().equals(rollnumber+"@nirmauni.ac.in"))
+         else if((password.getText().toString().length()<8)||!(password.getText().toString().contains("\\d")))
          {
-             Toast.makeText(SignUp.this,"Roll Number is not matching with Nirma email id",Toast.LENGTH_SHORT).show();
-         }*/
+             Toast.makeText(SignUp.this,"Password must be 8 characters long and have digits in it",Toast.LENGTH_SHORT).show();
+         }
          else if(!password.getText().toString().equals(cpassword.getText().toString()))
          {
              Toast.makeText(SignUp.this,"Password is not matching confirm password",Toast.LENGTH_SHORT).show();

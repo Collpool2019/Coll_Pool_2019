@@ -220,21 +220,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-night-v8_values-night-v8.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593",
-                        "endColumns": "69,83,83,95,101,101,93",
-                        "endOffsets": "120,204,288,384,486,588,682"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-nl_values-nl.arsc.flat",
             "map": [
                 {
@@ -303,6 +288,21 @@
                         "startOffsets": "2839,2951,3138,3270,3383,3609,3738,3891,4228,4465,4573,4773,4901,5123,5335,5433,5526",
                         "endColumns": "111,186,131,112,225,128,152,134,236,107,199,127,221,211,97,92,107",
                         "endOffsets": "2946,3133,3265,3378,3604,3733,3886,4021,4460,4568,4768,4896,5118,5330,5428,5521,5629"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-night-v8_values-night-v8.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
                     }
                 }
             ]
@@ -634,79 +634,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-ca_values-ca.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-ca\\values-ca.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,223,329,436,519,627,753,837,918,1009,1102,1196,1291,1390,1483,1576,1670,1761,1852,1935,2046,2155,2253,2363,2467,2575,2735,2834",
-                        "endColumns": "117,105,106,82,107,125,83,80,90,92,93,94,98,92,92,93,90,90,82,110,108,97,109,103,107,159,98,80",
-                        "endOffsets": "218,324,431,514,622,748,832,913,1004,1097,1191,1286,1385,1478,1571,1665,1756,1847,1930,2041,2150,2248,2358,2462,2570,2730,2829,2910"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,223,329,436,519,627,753,837,918,1009,1102,1196,1291,1390,1483,1576,1670,1761,1852,1935,2046,2155,2253,2363,2467,2575,2735,5571",
-                        "endColumns": "117,105,106,82,107,125,83,80,90,92,93,94,98,92,92,93,90,90,82,110,108,97,109,103,107,159,98,80",
-                        "endOffsets": "218,324,431,514,622,748,832,913,1004,1097,1191,1286,1385,1478,1571,1665,1756,1847,1930,2041,2150,2248,2358,2462,2570,2730,2829,5647"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\aeda49ba652eefff6469e8078ea9bf44\\jetified-play-services-base-16.0.1\\res\\values-ca\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,348,532,657,764,973,1098,1247,1380,1610,1717,1907,2036,2259,2443,2534,2628",
-                        "endColumns": "102,183,124,106,208,124,148,132,229,106,189,128,222,183,90,93,111",
-                        "endOffsets": "347,531,656,763,972,1097,1246,1379,1609,1716,1906,2035,2258,2442,2533,2627,2739"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2834,2941,3125,3254,3365,3574,3703,3856,4187,4417,4528,4718,4851,5074,5262,5357,5455",
-                        "endColumns": "106,183,128,110,208,128,152,136,229,110,189,132,222,187,94,97,115",
-                        "endOffsets": "2936,3120,3249,3360,3569,3698,3851,3988,4412,4523,4713,4846,5069,5257,5352,5450,5566"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\2fedd344fa5064d3a676d867921b4ff1\\jetified-play-services-basement-16.1.0\\res\\values-ca\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "193",
-                        "endOffsets": "440"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3993",
-                        "endColumns": "193",
-                        "endOffsets": "4182"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\241b89e013db22b59a4d22b3f2fa0913\\core-1.0.1\\res\\values-ca\\values-ca.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5652",
-                        "endColumns": "100",
-                        "endOffsets": "5748"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-bn_values-bn.arsc.flat",
             "map": [
                 {
@@ -775,6 +702,79 @@
                         "startOffsets": "3997",
                         "endColumns": "210",
                         "endOffsets": "4203"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-ca_values-ca.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,223,329,436,519,627,753,837,918,1009,1102,1196,1291,1390,1483,1576,1670,1761,1852,1935,2046,2155,2253,2363,2467,2575,2735,2834",
+                        "endColumns": "117,105,106,82,107,125,83,80,90,92,93,94,98,92,92,93,90,90,82,110,108,97,109,103,107,159,98,80",
+                        "endOffsets": "218,324,431,514,622,748,832,913,1004,1097,1191,1286,1385,1478,1571,1665,1756,1847,1930,2041,2150,2248,2358,2462,2570,2730,2829,2910"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,223,329,436,519,627,753,837,918,1009,1102,1196,1291,1390,1483,1576,1670,1761,1852,1935,2046,2155,2253,2363,2467,2575,2735,5571",
+                        "endColumns": "117,105,106,82,107,125,83,80,90,92,93,94,98,92,92,93,90,90,82,110,108,97,109,103,107,159,98,80",
+                        "endOffsets": "218,324,431,514,622,748,832,913,1004,1097,1191,1286,1385,1478,1571,1665,1756,1847,1930,2041,2150,2248,2358,2462,2570,2730,2829,5647"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\aeda49ba652eefff6469e8078ea9bf44\\jetified-play-services-base-16.0.1\\res\\values-ca\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,348,532,657,764,973,1098,1247,1380,1610,1717,1907,2036,2259,2443,2534,2628",
+                        "endColumns": "102,183,124,106,208,124,148,132,229,106,189,128,222,183,90,93,111",
+                        "endOffsets": "347,531,656,763,972,1097,1246,1379,1609,1716,1906,2035,2258,2442,2533,2627,2739"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2834,2941,3125,3254,3365,3574,3703,3856,4187,4417,4528,4718,4851,5074,5262,5357,5455",
+                        "endColumns": "106,183,128,110,208,128,152,136,229,110,189,132,222,187,94,97,115",
+                        "endOffsets": "2936,3120,3249,3360,3569,3698,3851,3988,4412,4523,4713,4846,5069,5257,5352,5450,5566"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\2fedd344fa5064d3a676d867921b4ff1\\jetified-play-services-basement-16.1.0\\res\\values-ca\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "193",
+                        "endOffsets": "440"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3993",
+                        "endColumns": "193",
+                        "endOffsets": "4182"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\241b89e013db22b59a4d22b3f2fa0913\\core-1.0.1\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5652",
+                        "endColumns": "100",
+                        "endOffsets": "5748"
                     }
                 }
             ]
@@ -2720,6 +2720,38 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-en-rIN_values-en-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,309,417,501,601,716,793,869,960,1053,1149,1243,1344,1437,1532,1626,1717,1808,1890,1993,2097,2196,2301,2404,2508,2664,2764",
+                        "endColumns": "103,99,107,83,99,114,76,75,90,92,95,93,100,92,94,93,90,90,81,102,103,98,104,102,103,155,99,81",
+                        "endOffsets": "204,304,412,496,596,711,788,864,955,1048,1144,1238,1339,1432,1527,1621,1712,1803,1885,1988,2092,2191,2296,2399,2503,2659,2759,2841"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\241b89e013db22b59a4d22b3f2fa0913\\core-1.0.1\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "2846",
+                        "endColumns": "100",
+                        "endOffsets": "2942"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-is_values-is.arsc.flat",
             "map": [
                 {
@@ -2788,38 +2820,6 @@
                         "startOffsets": "5502",
                         "endColumns": "100",
                         "endOffsets": "5598"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-en-rIN_values-en-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-en-rIN\\values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,209,309,417,501,601,716,793,869,960,1053,1149,1243,1344,1437,1532,1626,1717,1808,1890,1993,2097,2196,2301,2404,2508,2664,2764",
-                        "endColumns": "103,99,107,83,99,114,76,75,90,92,95,93,100,92,94,93,90,90,81,102,103,98,104,102,103,155,99,81",
-                        "endOffsets": "204,304,412,496,596,711,788,864,955,1048,1144,1238,1339,1432,1527,1621,1712,1803,1885,1988,2092,2191,2296,2399,2503,2659,2759,2841"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\241b89e013db22b59a4d22b3f2fa0913\\core-1.0.1\\res\\values-en-rIN\\values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "30",
-                        "startColumns": "4",
-                        "startOffsets": "2846",
-                        "endColumns": "100",
-                        "endOffsets": "2942"
                     }
                 }
             ]
@@ -3076,79 +3076,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-ka_values-ka.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-ka\\values-ka.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,318,429,517,622,735,819,901,992,1085,1180,1276,1377,1470,1565,1659,1750,1841,1924,2037,2144,2242,2355,2459,2563,2720,2818",
-                        "endColumns": "108,103,110,87,104,112,83,81,90,92,94,95,100,92,94,93,90,90,82,112,106,97,112,103,103,156,97,80",
-                        "endOffsets": "209,313,424,512,617,730,814,896,987,1080,1175,1271,1372,1465,1560,1654,1745,1836,1919,2032,2139,2237,2350,2454,2558,2715,2813,2894"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,318,429,517,622,735,819,901,992,1085,1180,1276,1377,1470,1565,1659,1750,1841,1924,2037,2144,2242,2355,2459,2563,2720,5527",
-                        "endColumns": "108,103,110,87,104,112,83,81,90,92,94,95,100,92,94,93,90,90,82,112,106,97,112,103,103,156,97,80",
-                        "endOffsets": "209,313,424,512,617,730,814,896,987,1080,1175,1271,1372,1465,1560,1654,1745,1836,1919,2032,2139,2237,2350,2454,2558,2715,2813,5603"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\241b89e013db22b59a4d22b3f2fa0913\\core-1.0.1\\res\\values-ka\\values-ka.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5608",
-                        "endColumns": "100",
-                        "endOffsets": "5704"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\aeda49ba652eefff6469e8078ea9bf44\\jetified-play-services-base-16.0.1\\res\\values-ka\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,348,529,655,763,976,1108,1256,1389,1621,1727,1913,2039,2259,2424,2516,2603",
-                        "endColumns": "102,180,125,107,212,131,147,132,231,105,185,125,219,164,91,86,100",
-                        "endOffsets": "347,528,654,762,975,1107,1255,1388,1620,1726,1912,2038,2258,2423,2515,2602,2703"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2818,2925,3106,3236,3348,3561,3697,3849,4188,4420,4530,4716,4846,5066,5235,5331,5422",
-                        "endColumns": "106,180,129,111,212,135,151,136,231,109,185,129,219,168,95,90,104",
-                        "endOffsets": "2920,3101,3231,3343,3556,3692,3844,3981,4415,4525,4711,4841,5061,5230,5326,5417,5522"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\2fedd344fa5064d3a676d867921b4ff1\\jetified-play-services-basement-16.1.0\\res\\values-ka\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "201",
-                        "endOffsets": "448"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3986",
-                        "endColumns": "201",
-                        "endOffsets": "4183"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-sl_values-sl.arsc.flat",
             "map": [
                 {
@@ -3217,6 +3144,79 @@
                         "startOffsets": "5649",
                         "endColumns": "100",
                         "endOffsets": "5745"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\values-ka_values-ka.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,318,429,517,622,735,819,901,992,1085,1180,1276,1377,1470,1565,1659,1750,1841,1924,2037,2144,2242,2355,2459,2563,2720,2818",
+                        "endColumns": "108,103,110,87,104,112,83,81,90,92,94,95,100,92,94,93,90,90,82,112,106,97,112,103,103,156,97,80",
+                        "endOffsets": "209,313,424,512,617,730,814,896,987,1080,1175,1271,1372,1465,1560,1654,1745,1836,1919,2032,2139,2237,2350,2454,2558,2715,2813,2894"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,318,429,517,622,735,819,901,992,1085,1180,1276,1377,1470,1565,1659,1750,1841,1924,2037,2144,2242,2355,2459,2563,2720,5527",
+                        "endColumns": "108,103,110,87,104,112,83,81,90,92,94,95,100,92,94,93,90,90,82,112,106,97,112,103,103,156,97,80",
+                        "endOffsets": "209,313,424,512,617,730,814,896,987,1080,1175,1271,1372,1465,1560,1654,1745,1836,1919,2032,2139,2237,2350,2454,2558,2715,2813,5603"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\241b89e013db22b59a4d22b3f2fa0913\\core-1.0.1\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5608",
+                        "endColumns": "100",
+                        "endOffsets": "5704"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\aeda49ba652eefff6469e8078ea9bf44\\jetified-play-services-base-16.0.1\\res\\values-ka\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,348,529,655,763,976,1108,1256,1389,1621,1727,1913,2039,2259,2424,2516,2603",
+                        "endColumns": "102,180,125,107,212,131,147,132,231,105,185,125,219,164,91,86,100",
+                        "endOffsets": "347,528,654,762,975,1107,1255,1388,1620,1726,1912,2038,2258,2423,2515,2602,2703"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2818,2925,3106,3236,3348,3561,3697,3849,4188,4420,4530,4716,4846,5066,5235,5331,5422",
+                        "endColumns": "106,180,129,111,212,135,151,136,231,109,185,129,219,168,95,90,104",
+                        "endOffsets": "2920,3101,3231,3343,3556,3692,3844,3981,4415,4525,4711,4841,5061,5230,5326,5417,5522"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\2fedd344fa5064d3a676d867921b4ff1\\jetified-play-services-basement-16.1.0\\res\\values-ka\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "201",
+                        "endOffsets": "448"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3986",
+                        "endColumns": "201",
+                        "endOffsets": "4183"
                     }
                 }
             ]
