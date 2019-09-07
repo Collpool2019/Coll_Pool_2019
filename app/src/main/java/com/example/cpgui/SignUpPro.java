@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Spinner;
 
 public class SignUpPro extends AppCompatActivity {
 
@@ -15,6 +16,16 @@ public class SignUpPro extends AppCompatActivity {
     }
 
     public void SignUp(View view) {
-        startActivity(new Intent(this, SignUp.class));
+        Spinner spinner=(Spinner)findViewById(R.id.spinner2);
+        switch(spinner.getSelectedItem().toString())
+        {
+            case"Student": {
+                startActivity(new Intent(this, SignUp.class));
+            } break;
+            case "Faculty/Staff":{
+                startActivity(new Intent(this, SignUpFaculty.class));
+            } break;
+        }
+
     }
 }

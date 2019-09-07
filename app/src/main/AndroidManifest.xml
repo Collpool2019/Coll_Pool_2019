@@ -10,7 +10,8 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignUpPro"></activity>
+        <activity android:name=".SignUpFaculty"></activity>
+        <activity android:name=".SignUpPro" />
         <activity android:name=".FinalSpace" />
         <activity android:name=".SignUp" />
         <activity android:name=".activity_login" />

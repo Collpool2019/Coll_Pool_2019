@@ -21,9 +21,8 @@
         <item>ILNU</item>
         <item>Architecture</item>
     </string-array>
-    <string-array name="Profession">
+    <string-array name="Profession" id="Pro">
         <item>Student</item>
-        <item>Faculty</item>
-        <item>Staff</item>
+        <item>Faculty/Staff</item>
     </string-array>
 </resources>
