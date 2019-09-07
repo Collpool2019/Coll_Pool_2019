@@ -12,4 +12,18 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="confirm_password">Confirm Password</string>
+    <string-array name="Institute">
+        <item>IMNU</item>
+        <item>ITNU</item>
+        <item>ICNU</item>
+        <item>ISNU</item>
+        <item>IPNU</item>
+        <item>ILNU</item>
+        <item>Architecture</item>
+    </string-array>
+    <string-array name="Profession">
+        <item>Student</item>
+        <item>Faculty</item>
+        <item>Staff</item>
+    </string-array>
 </resources>

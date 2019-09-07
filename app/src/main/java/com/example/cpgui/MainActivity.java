@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onSignUp(View view) {
-        startActivity(new Intent(MainActivity.this,SignUp.class));
+    public void SignUpPro(View view) {
+        startActivity(new Intent(MainActivity.this,SignUpPro.class));
     }
 }
