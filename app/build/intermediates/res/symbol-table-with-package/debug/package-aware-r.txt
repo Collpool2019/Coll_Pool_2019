@@ -25,6 +25,8 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array Institute
+array Profession
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -614,6 +616,7 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color coll_pool_logo_background
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
@@ -1055,6 +1058,7 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logo
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1071,6 +1075,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pp1
+drawable symbolcontinue
 drawable symbollogin
 drawable symbolsignup
 drawable tooltip_frame_dark
@@ -1169,7 +1174,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView2
 id info
 id invisible
 id italic
@@ -1184,6 +1188,7 @@ id listMode
 id list_item
 id login
 id login_initial
+id logo
 id masked
 id media_actions
 id message
@@ -1247,6 +1252,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner2
 id split_action_bar
 id spread
 id spread_inside
@@ -1347,6 +1353,8 @@ layout activity_final_space
 layout activity_login
 layout activity_main
 layout activity_sign_up
+layout activity_sign_up_faculty
+layout activity_sign_up_pro
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1382,6 +1390,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+mipmap coll_pool_logo
+mipmap coll_pool_logo_foreground
+mipmap coll_pool_logo_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
