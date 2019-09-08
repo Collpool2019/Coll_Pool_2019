@@ -8,14 +8,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class SignUp extends AppCompatActivity {
     private EditText name,rollnumber,emailadd,password,cpassword;
@@ -26,18 +24,18 @@ public class SignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-        name=(EditText)findViewById(R.id.Name);
+        name=(EditText)findViewById(R.id.Name1);
         rollnumber=(EditText)findViewById((R.id.Roll));
-        emailadd=(EditText)findViewById(R.id.username);
-        password=(EditText)findViewById(R.id.password);
-        cpassword=(EditText)findViewById(R.id.confirm_password);
+        emailadd=(EditText)findViewById(R.id.username1);
+        password=(EditText)findViewById(R.id.password1);
+        cpassword=(EditText)findViewById(R.id.confirm_password1);
         auth=FirebaseAuth.getInstance();
-        progressDialog=new ProgressDialog(this);
     }
     public void onSignUpActive(View view)
     {
         if(validDetails())
         {
+            progressDialog=new ProgressDialog(this);
             progressDialog.setMessage("Signing You Up");
             progressDialog.show();
           auth.createUserWithEmailAndPassword(emailadd.getText().toString(),password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -45,12 +43,23 @@ public class SignUp extends AppCompatActivity {
               public void onComplete(@NonNull Task<AuthResult> task) {
                if(task.isSuccessful())
                {
-                   Toast.makeText(SignUp.this,"You have been successfully verified",Toast.LENGTH_SHORT).show();
-                   progressDialog.dismiss();
-                   FirebaseUser firebaseUser=auth.getCurrentUser();
-                   firebaseUser.sendEmailVerification();
-                   auth.signOut();
-                   startActivity(new Intent(SignUp.this,MainActivity.class));
+                   auth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                       @Override
+                       public void onComplete(@NonNull Task<Void> task) {
+                           if(task.isSuccessful())
+                           {
+                               Toast.makeText(SignUp.this,"You have signed up,Verify your email address",Toast.LENGTH_SHORT).show();
+                               auth.signOut();
+                               progressDialog.dismiss();
+                               startActivity(new Intent(SignUp.this,MainActivity.class));
+                           }
+                           else
+                           {
+                               progressDialog.dismiss();
+                               Toast.makeText(SignUp.this,"You might not be connected to internet or email address is not valid",Toast.LENGTH_SHORT).show();
+                           }
+                       }
+                   });
                }
                else {
                    progressDialog.dismiss();
@@ -69,9 +78,9 @@ public class SignUp extends AppCompatActivity {
      }
      else
      {
-         if(!emailadd.getText().toString().contains("nirmauni.ac.in"))
+         if(!emailadd.getText().toString().equals(rollnumber.getText().toString().trim()+"@nirmauni.ac.in"))
          {
-             Toast.makeText(SignUp.this,"We only accept Nirma domain id's for security purpose",Toast.LENGTH_SHORT).show();
+             Toast.makeText(SignUp.this,"Enter your nirma email id only",Toast.LENGTH_SHORT).show();
          }
          else if(password.getText().toString().length()<8)//||!(password.getText().toString().contains("\\d")))
          {

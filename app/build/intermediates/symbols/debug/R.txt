@@ -1083,7 +1083,7 @@ int id ALT 0x7f090000
 int id CTRL 0x7f090001
 int id FUNCTION 0x7f090002
 int id META 0x7f090003
-int id Name 0x7f090004
+int id Name1 0x7f090004
 int id Roll 0x7f090005
 int id SHIFT 0x7f090006
 int id SYM 0x7f090007
@@ -1130,7 +1130,7 @@ int id chronometer 0x7f09002f
 int id clip_horizontal 0x7f090030
 int id clip_vertical 0x7f090031
 int id collapseActionView 0x7f090032
-int id confirm_password 0x7f090033
+int id confirm_password1 0x7f090033
 int id container 0x7f090034
 int id content 0x7f090035
 int id contentPanel 0x7f090036
@@ -1209,7 +1209,7 @@ int id parallax 0x7f09007e
 int id parent 0x7f09007f
 int id parentPanel 0x7f090080
 int id parent_matrix 0x7f090081
-int id password 0x7f090082
+int id password1 0x7f090082
 int id percent 0x7f090083
 int id pin 0x7f090084
 int id progress_circular 0x7f090085
@@ -1243,7 +1243,7 @@ int id shortcut 0x7f0900a0
 int id showCustom 0x7f0900a1
 int id showHome 0x7f0900a2
 int id showTitle 0x7f0900a3
-int id signup 0x7f0900a4
+int id signup1 0x7f0900a4
 int id singup_initial 0x7f0900a5
 int id smallLabel 0x7f0900a6
 int id snackbar_action 0x7f0900a7
@@ -1293,7 +1293,7 @@ int id uniform 0x7f0900d2
 int id unlabeled 0x7f0900d3
 int id up 0x7f0900d4
 int id useLogo 0x7f0900d5
-int id username 0x7f0900d6
+int id username1 0x7f0900d6
 int id view_offset_helper 0x7f0900d7
 int id visible 0x7f0900d8
 int id wide 0x7f0900d9

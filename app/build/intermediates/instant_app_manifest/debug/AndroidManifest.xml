@@ -23,12 +23,24 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.cpgui.SignUpFaculty" />
-        <activity android:name="com.example.cpgui.SignUpPro" />
-        <activity android:name="com.example.cpgui.FinalSpace" />
-        <activity android:name="com.example.cpgui.SignUp" />
-        <activity android:name="com.example.cpgui.activity_login" />
-        <activity android:name="com.example.cpgui.MainActivity" >
+        <activity
+            android:name="com.example.cpgui.SignUpFaculty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.cpgui.SignUpPro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.cpgui.FinalSpace"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.cpgui.SignUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.cpgui.activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.cpgui.MainActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

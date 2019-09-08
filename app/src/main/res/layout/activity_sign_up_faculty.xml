@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <Button
-            android:id="@+id/signup"
+            android:id="@+id/signup1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
@@ -31,14 +31,15 @@
             android:layout_marginEnd="80dp"
             android:layout_marginBottom="30dp"
             android:background="@drawable/symbolsignup"
+            android:onClick="onSignUpFaculty"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/confirm_password" />
+            app:layout_constraintTop_toBottomOf="@+id/confirm_password1" />
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/username1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
 
@@ -50,14 +51,14 @@
             android:hint="@string/prompt_email"
             android:inputType="textEmailAddress"
             android:selectAllOnFocus="true"
-            app:layout_constraintBottom_toTopOf="@+id/password"
+            app:layout_constraintBottom_toTopOf="@+id/password1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Name" />
+            app:layout_constraintTop_toBottomOf="@+id/Name1" />
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/password1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
 
@@ -71,14 +72,14 @@
             android:imeOptions="actionDone"
             android:inputType="textPassword"
             android:selectAllOnFocus="true"
-            app:layout_constraintBottom_toTopOf="@+id/confirm_password"
+            app:layout_constraintBottom_toTopOf="@+id/confirm_password1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/username" />
+            app:layout_constraintTop_toBottomOf="@+id/username1" />
 
         <EditText
-            android:id="@+id/confirm_password"
+            android:id="@+id/confirm_password1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
 
@@ -92,13 +93,13 @@
             android:imeOptions="actionDone"
             android:inputType="textPassword"
             android:selectAllOnFocus="true"
-            app:layout_constraintBottom_toTopOf="@+id/signup"
+            app:layout_constraintBottom_toTopOf="@+id/signup1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/password" />
+            app:layout_constraintTop_toBottomOf="@+id/password1" />
 
         <EditText
-            android:id="@+id/Name"
+            android:id="@+id/Name1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
@@ -108,7 +109,7 @@
             android:ems="10"
             android:hint="Name"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/username"
+            app:layout_constraintBottom_toTopOf="@+id/username1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

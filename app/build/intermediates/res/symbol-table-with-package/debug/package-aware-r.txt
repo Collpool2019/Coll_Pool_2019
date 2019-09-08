@@ -1084,7 +1084,7 @@ id ALT
 id CTRL
 id FUNCTION
 id META
-id Name
+id Name1
 id Roll
 id SHIFT
 id SYM
@@ -1131,7 +1131,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
-id confirm_password
+id confirm_password1
 id container
 id content
 id contentPanel
@@ -1210,7 +1210,7 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
-id password
+id password1
 id percent
 id pin
 id progress_circular
@@ -1244,7 +1244,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signup
+id signup1
 id singup_initial
 id smallLabel
 id snackbar_action
@@ -1294,7 +1294,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id username
+id username1
 id view_offset_helper
 id visible
 id wide

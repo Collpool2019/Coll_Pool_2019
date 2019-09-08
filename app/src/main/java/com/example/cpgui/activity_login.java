@@ -25,8 +25,8 @@ public class activity_login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Username=(EditText)findViewById(R.id.username);
-        Password=(EditText)findViewById(R.id.password);
+        Username=(EditText)findViewById(R.id.username1);
+        Password=(EditText)findViewById(R.id.password1);
         progressDialog=new ProgressDialog(this);
         firebaseAuth=FirebaseAuth.getInstance();
     }
@@ -74,13 +74,14 @@ public class activity_login extends AppCompatActivity {
                         }
                         else
                         {
+                            progressDialog.dismiss();
                             Toast.makeText(activity_login.this,"Please verify your email address",Toast.LENGTH_SHORT).show();
                         }
                     }
-                    /*else{
+                    else{
                         progressDialog.dismiss();
-                        Toast.makeText(activity_login.this,"You are signed in",Toast.LENGTH_SHORT).show();
-                    }*/
+                        Toast.makeText(activity_login.this,"Internet might be not connected",Toast.LENGTH_SHORT).show();
+                    }
                 }
             });
         }

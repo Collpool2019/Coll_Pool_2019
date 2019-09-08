@@ -10,12 +10,18 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignUpFaculty"></activity>
-        <activity android:name=".SignUpPro" />
-        <activity android:name=".FinalSpace" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".activity_login" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SignUpFaculty"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".SignUpPro"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FinalSpace"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SignUp"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity_login"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
