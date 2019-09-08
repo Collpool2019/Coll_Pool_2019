@@ -14,11 +14,14 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class SignUp extends AppCompatActivity {
     private EditText name,rollnumber,emailadd,password,cpassword;
     private FirebaseAuth auth;
     private ProgressDialog progressDialog;
+    private FirebaseDatabase firebaseDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,43 +33,49 @@ public class SignUp extends AppCompatActivity {
         password=(EditText)findViewById(R.id.password1);
         cpassword=(EditText)findViewById(R.id.confirm_password1);
         auth=FirebaseAuth.getInstance();
+        firebaseDatabase=FirebaseDatabase.getInstance("https://collpool2019-2fe22.firebaseio.com/");
     }
     public void onSignUpActive(View view)
+    {
+        authenticate();
+    }
+    private void authenticate()
     {
         if(validDetails())
         {
             progressDialog=new ProgressDialog(this);
             progressDialog.setMessage("Signing You Up");
             progressDialog.show();
-          auth.createUserWithEmailAndPassword(emailadd.getText().toString(),password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-              @Override
-              public void onComplete(@NonNull Task<AuthResult> task) {
-               if(task.isSuccessful())
-               {
-                   auth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
-                       @Override
-                       public void onComplete(@NonNull Task<Void> task) {
-                           if(task.isSuccessful())
-                           {
-                               Toast.makeText(SignUp.this,"You have signed up,Verify your email address",Toast.LENGTH_SHORT).show();
-                               auth.signOut();
-                               progressDialog.dismiss();
-                               startActivity(new Intent(SignUp.this,MainActivity.class));
-                           }
-                           else
-                           {
-                               progressDialog.dismiss();
-                               Toast.makeText(SignUp.this,"You might not be connected to internet or email address is not valid",Toast.LENGTH_SHORT).show();
-                           }
-                       }
-                   });
-               }
-               else {
-                   progressDialog.dismiss();
-                   Toast.makeText(SignUp.this,"You might be not connected to internet\nOr your account already exists",Toast.LENGTH_SHORT).show();
-               }
-              }
-          });
+            auth.createUserWithEmailAndPassword(emailadd.getText().toString(),password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull Task<AuthResult> task) {
+                    if(task.isSuccessful())
+                    {
+                        auth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                            @Override
+                            public void onComplete(@NonNull Task<Void> task) {
+                                if(task.isSuccessful())
+                                {
+                                    connect();
+                                    auth.signOut();
+                                    progressDialog.dismiss();
+                                    Toast.makeText(SignUp.this,"You have signed up,Verify your email address",Toast.LENGTH_SHORT).show();
+                                    startActivity(new Intent(SignUp.this,MainActivity.class));
+                                }
+                                else
+                                {
+                                    progressDialog.dismiss();
+                                    Toast.makeText(SignUp.this,"You might not be connected to internet or email address is not valid",Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        progressDialog.dismiss();
+                        Toast.makeText(SignUp.this,"You might be not connected to internet\nOr your account already exists",Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
         }
     }
     private boolean validDetails()
@@ -96,5 +105,11 @@ public class SignUp extends AppCompatActivity {
          }
      }
      return a;
+    }
+    private void connect()
+    {
+        DatabaseReference databaseReference=firebaseDatabase.getReference(auth.getCurrentUser().getUid());
+        StdData stdData=new StdData(name.getText().toString(),rollnumber.getText().toString(),emailadd.getText().toString().trim());
+        databaseReference.setValue(stdData);
     }
 }

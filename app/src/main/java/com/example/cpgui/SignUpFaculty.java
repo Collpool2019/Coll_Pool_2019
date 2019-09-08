@@ -14,10 +14,14 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class SignUpFaculty extends AppCompatActivity {
     private EditText name,emailadd,password,cpassword;
     private FirebaseAuth auth;
+    private FirebaseDatabase firebaseDatabase;
     private ProgressDialog progressDialog;
 
     @Override
@@ -29,8 +33,13 @@ public class SignUpFaculty extends AppCompatActivity {
         password=(EditText)findViewById(R.id.password1);
         cpassword=(EditText)findViewById(R.id.confirm_password1);
         auth=FirebaseAuth.getInstance();
+        firebaseDatabase=FirebaseDatabase.getInstance("https://collpool2019-2fe22.firebaseio.com/");
     }
     public void onSignUpFaculty(View view)
+    {
+        transfer();
+    }
+    private void transfer()
     {
         if(validDetails())
         {
@@ -47,9 +56,10 @@ public class SignUpFaculty extends AppCompatActivity {
                             public void onComplete(@NonNull Task<Void> task) {
                                 if(task.isSuccessful())
                                 {
-                                    Toast.makeText(SignUpFaculty.this,"You have signed up,Verify your email address",Toast.LENGTH_SHORT).show();
+                                    connect();
                                     auth.signOut();
                                     progressDialog.dismiss();
+                                    Toast.makeText(SignUpFaculty.this,"You have signed up,Verify your email address",Toast.LENGTH_SHORT).show();
                                     startActivity(new Intent(SignUpFaculty.this,MainActivity.class));
                                 }
                                 else
@@ -95,5 +105,11 @@ public class SignUpFaculty extends AppCompatActivity {
             }
         }
         return a;
+    }
+    private void connect()
+    {
+        DatabaseReference databaseReference=firebaseDatabase.getReference(auth.getCurrentUser().getUid());
+        FacultyData stdData=new FacultyData(name.getText().toString(),emailadd.getText().toString().trim());
+        databaseReference.setValue(stdData);
     }
 }

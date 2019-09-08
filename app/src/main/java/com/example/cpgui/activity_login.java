@@ -80,7 +80,7 @@ public class activity_login extends AppCompatActivity {
                     }
                     else{
                         progressDialog.dismiss();
-                        Toast.makeText(activity_login.this,"Internet might be not connected",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity_login.this,"Password entered is not correct",Toast.LENGTH_SHORT).show();
                     }
                 }
             });
