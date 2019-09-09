@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Coll_Pool_2019.iml" filepath="$PROJECT_DIR$/Coll_Pool_2019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPgui.iml" filepath="$PROJECT_DIR$/CPgui.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

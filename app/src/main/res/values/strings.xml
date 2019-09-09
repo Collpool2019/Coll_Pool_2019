@@ -12,6 +12,7 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_final_space">Map</string>
     <string-array name="Institute">
         <item>IMNU</item>
         <item>ITNU</item>
