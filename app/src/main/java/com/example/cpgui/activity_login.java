@@ -54,6 +54,10 @@ public class activity_login extends AppCompatActivity {
         }
         return a;
     }
+    public void onForgotPassword(View view)
+    {
+        passwordReset();
+    }
     private void authenticate(String a,String b)
     {
         progressDialog.setMessage("Loging in");
@@ -84,6 +88,41 @@ public class activity_login extends AppCompatActivity {
                     }
                 }
             });
+        }
+    }
+    public void onNewSignUp(View view)
+    {
+        startActivity(new Intent(activity_login.this,SignUpPro.class));
+    }
+    private boolean validForReset()
+    {
+        if(Username.getText().toString().isEmpty())
+            return false;
+        return true;
+    }
+    private void passwordReset()
+    {
+        if(validForReset()) {
+            progressDialog.setMessage("Authenticating");
+            progressDialog.show();
+            firebaseAuth.sendPasswordResetEmail(Username.getText().toString().trim()).addOnCompleteListener(new OnCompleteListener<Void>() {
+                @Override
+                public void onComplete(@NonNull Task<Void> task) {
+                    if(task.isSuccessful())
+                    {
+                        progressDialog.dismiss();
+                        Toast.makeText(activity_login.this,"Reset Link has been sent to your email address",Toast.LENGTH_SHORT).show();
+                    }
+                    else
+                    {
+                        progressDialog.dismiss();
+                        Toast.makeText(activity_login.this,"User is not registered ",Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
+        }
+        else {
+            Toast.makeText(activity_login.this,"Plese enter your register email id",Toast.LENGTH_SHORT).show();
         }
     }
 }
