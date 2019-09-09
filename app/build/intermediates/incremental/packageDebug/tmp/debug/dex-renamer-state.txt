@@ -1,7 +1,7 @@
-#Mon Sep 09 17:01:56 IST 2019
-base.0=C\:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Mon Sep 09 17:10:55 IST 2019
+base.0=C\:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=C\:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

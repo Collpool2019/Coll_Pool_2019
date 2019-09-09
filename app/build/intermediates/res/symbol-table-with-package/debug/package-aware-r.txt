@@ -25,6 +25,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array Gender
 array Institute
 array Profession
 attr actionBarDivider
@@ -1173,6 +1174,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id editText2
 id edit_query
 id end
 id end_padder
@@ -1280,6 +1282,8 @@ id snap
 id snapMargins
 id spacer
 id spinner2
+id spinner4
+id spinner5
 id split_action_bar
 id spread
 id spread_inside
@@ -1382,6 +1386,7 @@ layout abc_tooltip
 layout activity_final_space
 layout activity_login
 layout activity_main
+layout activity_preference
 layout activity_sign_up
 layout activity_sign_up_faculty
 layout activity_sign_up_pro
@@ -1505,6 +1510,7 @@ string invalid_password
 string invalid_username
 string login
 string login_failed
+string mobile_number
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
 string path_password_eye

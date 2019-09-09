@@ -13,17 +13,24 @@
     <string name="login_failed">"Login failed"</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="title_activity_final_space">Map</string>
+    <string name="mobile_number">Mobile Number</string>
     <string-array name="Institute">
-        <item>IMNU</item>
-        <item>ITNU</item>
-        <item>ICNU</item>
-        <item>ISNU</item>
-        <item>IPNU</item>
-        <item>ILNU</item>
-        <item>Architecture</item>
+        <item>Institute of Technology</item>
+        <item>Institute of Management</item>
+        <item>Faculty of Doctoral Studies and Research</item>
+        <item>Institute of Pharmacy</item>
+        <item>Institute of Science</item>
+        <item>Institute of Law</item>
+        <item>Institute of Architecture and Planning</item>
+        <item>Institute of Commerce</item>
+        <item>Department of Design</item>
     </string-array>
     <string-array name="Profession" id="Pro">
         <item>Student</item>
         <item>Faculty/Staff</item>
+    </string-array>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
     </string-array>
 </resources>
