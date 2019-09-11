@@ -10,7 +10,8 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Preference"></activity>
+        <activity android:name=".OneTimePass"></activity>
+        <activity android:name=".Preference" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -21,8 +22,8 @@
         -->
         <activity
             android:name=".FinalSpace"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_final_space" />
+            android:label="@string/title_activity_final_space"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SignUpFaculty"
             android:screenOrientation="portrait" />

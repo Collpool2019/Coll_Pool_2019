@@ -25,8 +25,8 @@
         android:roundIcon="@mipmap/coll_pool_logo_round"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.cpgui.OneTimePass" />
         <activity android:name="com.example.cpgui.Preference" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

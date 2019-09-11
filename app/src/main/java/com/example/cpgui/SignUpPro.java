@@ -16,7 +16,7 @@ public class SignUpPro extends AppCompatActivity {
     }
 
     public void SignUp(View view) {
-        Spinner spinner=(Spinner)findViewById(R.id.spinner2);
+        Spinner spinner=(Spinner)findViewById(R.id.professionspinner);
         switch(spinner.getSelectedItem().toString())
         {
             case"Student": {

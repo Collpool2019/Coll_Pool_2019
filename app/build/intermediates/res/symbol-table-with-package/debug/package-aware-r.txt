@@ -1102,7 +1102,9 @@ drawable notify_panel_notification_icon_bg
 drawable pp1
 drawable symbolcontinue
 drawable symbollogin
+drawable symbolresend
 drawable symbolsignup
+drawable symbolsubmit
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1175,6 +1177,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id editText
 id edit_query
 id end
 id end_padder
@@ -1214,7 +1217,6 @@ id line1
 id line3
 id listMode
 id list_item
-id login
 id login_initial
 id logo
 id map
@@ -1243,9 +1245,11 @@ id password1
 id percent
 id phonenumber
 id pin
+id professionspinner
 id progress_circular
 id progress_horizontal
 id radio
+id resendotp
 id right
 id right_icon
 id right_side
@@ -1283,7 +1287,6 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
-id spinner2
 id split_action_bar
 id spread
 id spread_inside
@@ -1296,6 +1299,7 @@ id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
+id submitotp
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
@@ -1386,6 +1390,7 @@ layout abc_tooltip
 layout activity_final_space
 layout activity_login
 layout activity_main
+layout activity_one_time_pass
 layout activity_preference
 layout activity_sign_up
 layout activity_sign_up_faculty
