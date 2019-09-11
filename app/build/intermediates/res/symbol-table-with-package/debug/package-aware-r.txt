@@ -1108,6 +1108,7 @@ drawable tooltip_frame_light
 id ALT
 id CTRL
 id FUNCTION
+id Institute
 id META
 id Name1
 id Roll
@@ -1174,7 +1175,6 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
-id editText2
 id edit_query
 id end
 id end_padder
@@ -1189,6 +1189,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id gender
 id ghost_view
 id gone
 id group_divider
@@ -1240,6 +1241,7 @@ id parentPanel
 id parent_matrix
 id password1
 id percent
+id phonenumber
 id pin
 id progress_circular
 id progress_horizontal
@@ -1282,8 +1284,6 @@ id snap
 id snapMargins
 id spacer
 id spinner2
-id spinner4
-id spinner5
 id split_action_bar
 id spread
 id spread_inside

@@ -15,11 +15,19 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class activity_login extends AppCompatActivity {
     private EditText Username,Password;
     private FirebaseAuth firebaseAuth;
+    private FirebaseDatabase firebaseDatabase;
     private ProgressDialog progressDialog;
+    private FirebaseUser firebaseUser;
+    private StdData stdData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +37,7 @@ public class activity_login extends AppCompatActivity {
         Password=(EditText)findViewById(R.id.password1);
         progressDialog=new ProgressDialog(this);
         firebaseAuth=FirebaseAuth.getInstance();
+        firebaseDatabase=FirebaseDatabase.getInstance();
     }
     public void onStartLogin(View view)
     {
@@ -70,11 +79,17 @@ public class activity_login extends AppCompatActivity {
                     if(task.isSuccessful())
                     {
                         progressDialog.dismiss();
-                        FirebaseUser firebaseUser=firebaseAuth.getCurrentUser();
+                        firebaseUser=firebaseAuth.getCurrentUser();
                         if(firebaseUser.isEmailVerified())
                         {
                             Toast.makeText(activity_login.this,"You have loged in successfully",Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(activity_login.this,FinalSpace.class));
+                            /*if(dataCheck())
+                            {
+                                startActivity(new Intent(activity_login.this,Preference.class));
+                            }*/
+                            //else {
+                                startActivity(new Intent(activity_login.this, FinalSpace.class));
+                            //}
                         }
                         else
                         {
@@ -125,4 +140,21 @@ public class activity_login extends AppCompatActivity {
             Toast.makeText(activity_login.this,"Plese enter your register email id",Toast.LENGTH_SHORT).show();
         }
     }
+    /*private boolean dataCheck()
+    {
+        DatabaseReference databaseReference=firebaseDatabase.getReference(firebaseAuth.getCurrentUser().getUid());
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                 stdData=dataSnapshot.getValue(StdData.class);
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+              Toast.makeText(activity_login.this,"Some error has been occured",Toast.LENGTH_SHORT).show();
+            }
+        });
+        if(stdData.getPhoneNumber().equals(null))
+            return true;
+        return false;
+    }*/
 }

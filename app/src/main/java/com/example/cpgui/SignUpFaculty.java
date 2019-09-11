@@ -51,24 +51,9 @@ public class SignUpFaculty extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful())
                     {
-                        auth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
-                            @Override
-                            public void onComplete(@NonNull Task<Void> task) {
-                                if(task.isSuccessful())
-                                {
-                                    connect();
-                                    auth.signOut();
-                                    progressDialog.dismiss();
-                                    Toast.makeText(SignUpFaculty.this,"You have signed up,Verify your email address",Toast.LENGTH_SHORT).show();
-                                    startActivity(new Intent(SignUpFaculty.this,MainActivity.class));
-                                }
-                                else
-                                {
-                                    progressDialog.dismiss();
-                                    Toast.makeText(SignUpFaculty.this,"You might not be connected to internet or email address is not valid",Toast.LENGTH_SHORT).show();
-                                }
-                            }
-                        });
+                        progressDialog.dismiss();
+                        Toast.makeText(SignUpFaculty.this,"Sign Up completed",Toast.LENGTH_SHORT).show();
+                        connect();
                     }
                     else {
                         progressDialog.dismiss();
@@ -108,8 +93,10 @@ public class SignUpFaculty extends AppCompatActivity {
     }
     private void connect()
     {
-        DatabaseReference databaseReference=firebaseDatabase.getReference(auth.getCurrentUser().getUid());
-        FacultyData stdData=new FacultyData(name.getText().toString(),emailadd.getText().toString().trim());
-        databaseReference.setValue(stdData);
+        Intent intent=new Intent(this,Preference.class);
+        intent.putExtra("UsernameF",name.getText().toString());
+        intent.putExtra("EmailIdF",emailadd.getText().toString());
+        intent.putExtra("Id","From Faculty");
+        startActivity(intent);
     }
 }

@@ -51,24 +51,24 @@ public class SignUp extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful())
                     {
-                        auth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
-                            @Override
-                            public void onComplete(@NonNull Task<Void> task) {
-                                if(task.isSuccessful())
-                                {
-                                    connect();
-                                    auth.signOut();
+                        //auth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                           // @Override
+                           // public void onComplete(@NonNull Task<Void> task) {
+                             //   if(task.isSuccessful())
+                                /*{
+                                   // connect();
                                     progressDialog.dismiss();
-                                    Toast.makeText(SignUp.this,"You have signed up,Verify your email address",Toast.LENGTH_SHORT).show();
-                                    startActivity(new Intent(SignUp.this,MainActivity.class));
-                                }
-                                else
-                                {
-                                    progressDialog.dismiss();
-                                    Toast.makeText(SignUp.this,"You might not be connected to internet or email address is not valid",Toast.LENGTH_SHORT).show();
-                                }
-                            }
-                        });
+                                    Toast.makeText(SignUp.this,"You have signed up",Toast.LENGTH_SHORT).show();
+                                    intentData();
+                                }*/
+                                //else
+                                //{
+                                    //progressDialog.dismiss();
+                                    //Toast.makeText(SignUp.this,"You might not be connected to internet or email address is not valid",Toast.LENGTH_SHORT).show();
+                                //}
+                        progressDialog.dismiss();
+                        Toast.makeText(SignUp.this,"You have signed up",Toast.LENGTH_SHORT).show();
+                        intentData();
                     }
                     else {
                         progressDialog.dismiss();
@@ -106,10 +106,23 @@ public class SignUp extends AppCompatActivity {
      }
      return a;
     }
-    private void connect()
+   /* private void connect()
     {
         DatabaseReference databaseReference=firebaseDatabase.getReference(auth.getCurrentUser().getUid());
-        StdData stdData=new StdData(name.getText().toString(),rollnumber.getText().toString(),emailadd.getText().toString().trim());
+        StdData stdData=new StdData();
+        stdData.setName1(name.getText().toString());
+        stdData.setEmailid(emailadd.getText().toString().trim());
+        stdData.setRollnumber(rollnumber.getText().toString());
+        Toast.makeText(SignUp.this,stdData.getPhoneNumber(),Toast.LENGTH_SHORT).show();
         databaseReference.setValue(stdData);
-    }
+    }*/
+   private void intentData()
+   {
+       Intent intent=new Intent(SignUp.this,Preference.class);
+       intent.putExtra("Username",name.getText().toString());
+       intent.putExtra("Emailid",emailadd.getText().toString());
+       intent.putExtra("Rollnumber",rollnumber.getText().toString());
+       intent.putExtra("Id","From Student");
+       startActivity(intent);
+   }
 }

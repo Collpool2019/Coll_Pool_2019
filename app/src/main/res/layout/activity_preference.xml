@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/phonenumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
@@ -31,14 +31,14 @@
             android:ems="10"
             android:hint="@string/mobile_number"
             android:inputType="phone"
-            app:layout_constraintBottom_toTopOf="@+id/spinner4"
+            app:layout_constraintBottom_toTopOf="@+id/gender"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/logo" />
 
         <Spinner
-            android:id="@+id/spinner4"
+            android:id="@+id/gender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
@@ -46,14 +46,14 @@
             android:layout_marginBottom="30dp"
             android:background="@color/common_google_signin_btn_text_dark_default"
             android:entries="@array/Gender"
-            app:layout_constraintBottom_toTopOf="@+id/spinner5"
+            app:layout_constraintBottom_toTopOf="@+id/Institute"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            app:layout_constraintTop_toBottomOf="@+id/phonenumber" />
 
         <Spinner
-            android:id="@+id/spinner5"
+            android:id="@+id/Institute"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
@@ -65,7 +65,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/spinner4" />
+            app:layout_constraintTop_toBottomOf="@+id/gender" />
 
         <Button
             android:id="@+id/login"
@@ -78,10 +78,11 @@
             android:layout_marginBottom="50dp"
             android:background="@drawable/symbolcontinue"
             android:enabled="true"
+            android:onClick="onContinue"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/spinner5" />
+            app:layout_constraintTop_toBottomOf="@+id/Institute" />
 
         <ImageView
             android:id="@+id/logo"
@@ -92,7 +93,7 @@
             android:cropToPadding="true"
             app:layout_constrainedHeight="true"
             app:layout_constrainedWidth="true"
-            app:layout_constraintBottom_toTopOf="@+id/editText2"
+            app:layout_constraintBottom_toTopOf="@+id/phonenumber"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"

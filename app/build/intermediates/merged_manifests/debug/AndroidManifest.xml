@@ -38,7 +38,8 @@
         -->
         <activity
             android:name="com.example.cpgui.FinalSpace"
-            android:label="@string/title_activity_final_space" />
+            android:label="@string/title_activity_final_space"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.cpgui.SignUpFaculty"
             android:screenOrientation="portrait" />
