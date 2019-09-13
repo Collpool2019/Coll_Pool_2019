@@ -1,8 +1,5 @@
 package com.example.cpgui;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,11 +7,13 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class SignUp extends AppCompatActivity {
@@ -27,11 +26,11 @@ public class SignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-        name=(EditText)findViewById(R.id.Name1);
-        rollnumber=(EditText)findViewById((R.id.Roll));
-        emailadd=(EditText)findViewById(R.id.username1);
-        password=(EditText)findViewById(R.id.password1);
-        cpassword=(EditText)findViewById(R.id.confirm_password1);
+        name = findViewById(R.id.Name1);
+        rollnumber = findViewById((R.id.Roll));
+        emailadd = findViewById(R.id.username1);
+        password = findViewById(R.id.password1);
+        cpassword = findViewById(R.id.confirm_password1);
         auth=FirebaseAuth.getInstance();
         firebaseDatabase=FirebaseDatabase.getInstance("https://collpool2019-2fe22.firebaseio.com/");
     }
@@ -55,12 +54,12 @@ public class SignUp extends AppCompatActivity {
                            // @Override
                            // public void onComplete(@NonNull Task<Void> task) {
                              //   if(task.isSuccessful())
-                                /*{
+                        //{
                                    // connect();
-                                    progressDialog.dismiss();
-                                    Toast.makeText(SignUp.this,"You have signed up",Toast.LENGTH_SHORT).show();
-                                    intentData();
-                                }*/
+                        //  progressDialog.dismiss();
+                        //Toast.makeText(SignUp.this,"You have signed up",Toast.LENGTH_SHORT).show();
+                        // intentData();
+                        //}*/
                                 //else
                                 //{
                                     //progressDialog.dismiss();
