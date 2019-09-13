@@ -32,6 +32,7 @@ public class Preference extends AppCompatActivity {
     private StdData stdData;
     private FacultyData fdata;
     private Intent intent;
+    public OneTimePass phone=new OneTimePass();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +68,7 @@ public class Preference extends AppCompatActivity {
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()) {
                             firebaseAuth.getCurrentUser().sendEmailVerification();
-                            // phone.verifyPhoneNumber(stdData.getPhoneNumber(),7, TimeUnit.MINUTES,Preference.this);
+                           phone.startphoneauth();
                             firebaseAuth.signOut();
                             progressDialog.dismiss();
                             Toast.makeText(Preference.this, "Process completed", Toast.LENGTH_SHORT).show();

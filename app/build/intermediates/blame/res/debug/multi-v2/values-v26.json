@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

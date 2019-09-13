@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Nishi\\Downloads\\CPgui-20190901T101106Z-001\\CPgui\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\241b89e013db22b59a4d22b3f2fa0913\\core-1.0.1\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5648",
+                        "endColumns": "100",
+                        "endOffsets": "5744"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\180546d0e96b8261ff5023b29af0d47e\\jetified-play-services-base-16.0.1\\res\\values-vi\\values.xml",
+                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\5b22f5c75c6eadd55bcc697ff9365096\\jetified-play-services-base-16.0.1\\res\\values-vi\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\4d7d4a6e61a2f961b503dbcf1a84ae2a\\jetified-play-services-basement-16.1.0\\res\\values-vi\\values.xml",
+                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\85f08ccaf0b153e6baa9260b58ff3473\\jetified-play-services-basement-16.1.0\\res\\values-vi\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,23 +69,6 @@
                         "startOffsets": "3997",
                         "endColumns": "194",
                         "endOffsets": "4187"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Nishi\\.gradle\\caches\\transforms-2\\files-2.1\\241b89e013db22b59a4d22b3f2fa0913\\core-1.0.1\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5648",
-                        "endColumns": "100",
-                        "endOffsets": "5744"
                     }
                 }
             ]
