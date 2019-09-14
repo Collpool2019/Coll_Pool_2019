@@ -35,11 +35,10 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeUnit;
 
 public class OneTimePass extends AppCompatActivity {
-    public PhoneAuthProvider phone;
-    private String mVerificationId;
+    private String phoneno;
     private EditText editTextCode;
     private FirebaseAuth mAuth;
-    public String verificationId;
+    private String verificationId;
     //private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks;
    // public StdData stdData = new StdData();
 
@@ -51,7 +50,7 @@ public class OneTimePass extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         editTextCode = findViewById(R.id.editText);
         Intent intentph = getIntent();
-        String phoneno = intentph.getStringExtra("phoneno.");
+        phoneno = intentph.getStringExtra("phoneno.");
         startphoneauth(phoneno);
 
         findViewById(R.id.submitotp).setOnClickListener(new View.OnClickListener() {
@@ -67,11 +66,17 @@ public class OneTimePass extends AppCompatActivity {
             }
 
         });
+        findViewById(R.id.resendotp).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startphoneauth(phoneno);
+            }
+        });
     }
 
-    public void startphoneauth(String phoneno) {
+    private void startphoneauth(String phoneno) {
 
-        phone.getInstance().verifyPhoneNumber("+91" + phoneno, 120, TimeUnit.SECONDS, this, mCallbacks);
+        PhoneAuthProvider.getInstance().verifyPhoneNumber("+91" + phoneno, 120, TimeUnit.SECONDS, this, mCallbacks);
     }
 private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks=new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
 
@@ -113,7 +118,8 @@ private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks=new Pho
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             //verification successful we will start the profile activity
-                            Intent intent = new Intent(OneTimePass.this, FinalSpace.class);
+                            mAuth.signOut();
+                            Intent intent = new Intent(OneTimePass.this, MainActivity.class);
                             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);
 

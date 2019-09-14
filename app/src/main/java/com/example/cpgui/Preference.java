@@ -69,7 +69,7 @@ public class Preference extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             firebaseAuth.getCurrentUser().sendEmailVerification();
                           // phone.startphoneauth();
-                          //  firebaseAuth.signOut();
+                            firebaseAuth.signOut();
                             progressDialog.dismiss();
                             Toast.makeText(Preference.this, "Process completed", Toast.LENGTH_SHORT).show();
                             Intent intent=new Intent(Preference.this, OneTimePass.class);
@@ -95,7 +95,7 @@ public class Preference extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             firebaseAuth.getCurrentUser().sendEmailVerification();
                             // phone.verifyPhoneNumber(stdData.getPhoneNumber(),7, TimeUnit.MINUTES,Preference.this);
-                           // firebaseAuth.signOut();
+                            firebaseAuth.signOut();
                             progressDialog.dismiss();
                             Toast.makeText(Preference.this, "Process completed", Toast.LENGTH_SHORT).show();
                             Intent intent=new Intent(Preference.this, OneTimePass.class);
