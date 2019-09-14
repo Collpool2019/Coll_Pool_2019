@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\f5cee04665f635392fbc3a078a89e818\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\85e257a6babe96d3b8085bcd76499598\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -51,25 +51,30 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\91982\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\ac265cfd5669b686a3cba2f45a6e36b7\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\713286adb45a271b2a002c68119655f4\crashlytics-core-2.7.0\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\9356e37ce7fc53fc65b2e1bbfc6ee926\beta-1.2.10\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\dbb3a308055aadf051b938a324cab1e9\jetified-answers-1.4.7\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\7f2c359e31cca7c0850a5759da7e4485\fabric-1.4.8\AndroidManifest.xml:22:1-33:12
+INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:5:5-52:19
+ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:5:5-55:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\f5cee04665f635392fbc3a078a89e818\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\f5cee04665f635392fbc3a078a89e818\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -96,6 +101,16 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\91
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\0150aea6f0427790b968ac16d0f01a76\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\713286adb45a271b2a002c68119655f4\crashlytics-core-2.7.0\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\713286adb45a271b2a002c68119655f4\crashlytics-core-2.7.0\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\9356e37ce7fc53fc65b2e1bbfc6ee926\beta-1.2.10\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\9356e37ce7fc53fc65b2e1bbfc6ee926\beta-1.2.10\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\dbb3a308055aadf051b938a324cab1e9\jetified-answers-1.4.7\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\dbb3a308055aadf051b938a324cab1e9\jetified-answers-1.4.7\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\7f2c359e31cca7c0850a5759da7e4485\fabric-1.4.8\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\7f2c359e31cca7c0850a5759da7e4485\fabric-1.4.8\AndroidManifest.xml:31:5-20
 	android:screenOrientation
 		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:10:9-45
 	android:appComponentFactory
@@ -174,10 +189,36 @@ ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\Andr
 		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:51:13-52
 	android:name
 		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:50:13-58
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:54:5-79
+meta-data#io.fabric.ApiKey
+ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:52:9-54:72
+	android:value
+		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:54:13-69
 	android:name
-		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:54:22-76
+		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:53:13-44
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:57:5-79
+	android:name
+		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:57:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:59:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\ff013b4fc7e4d944d6ceff7b942a15d4\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\ff013b4fc7e4d944d6ceff7b942a15d4\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\45cc7934c9952ce3efae3a5d56a609bb\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\45cc7934c9952ce3efae3a5d56a609bb\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\b07ac71af2d311fb8e55710c1adac525\jetified-firebase-storage-16.0.4\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\b07ac71af2d311fb8e55710c1adac525\jetified-firebase-storage-16.0.4\AndroidManifest.xml:24:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\713286adb45a271b2a002c68119655f4\crashlytics-core-2.7.0\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\713286adb45a271b2a002c68119655f4\crashlytics-core-2.7.0\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\9356e37ce7fc53fc65b2e1bbfc6ee926\beta-1.2.10\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\9356e37ce7fc53fc65b2e1bbfc6ee926\beta-1.2.10\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\dbb3a308055aadf051b938a324cab1e9\jetified-answers-1.4.7\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\dbb3a308055aadf051b938a324cab1e9\jetified-answers-1.4.7\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\7f2c359e31cca7c0850a5759da7e4485\fabric-1.4.8\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\7f2c359e31cca7c0850a5759da7e4485\fabric-1.4.8\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:59:22-64
 uses-sdk
 INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
@@ -276,8 +317,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\91982\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\713286adb45a271b2a002c68119655f4\crashlytics-core-2.7.0\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\713286adb45a271b2a002c68119655f4\crashlytics-core-2.7.0\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\9356e37ce7fc53fc65b2e1bbfc6ee926\beta-1.2.10\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\9356e37ce7fc53fc65b2e1bbfc6ee926\beta-1.2.10\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\dbb3a308055aadf051b938a324cab1e9\jetified-answers-1.4.7\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\dbb3a308055aadf051b938a324cab1e9\jetified-answers-1.4.7\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\7f2c359e31cca7c0850a5759da7e4485\fabric-1.4.8\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\7f2c359e31cca7c0850a5759da7e4485\fabric-1.4.8\AndroidManifest.xml:27:5-43
 INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:14:9-60
 	android:targetSdkVersion
 		INJECTED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\91982\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
@@ -294,14 +347,6 @@ MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\91982\.gradle
 MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\b07ac71af2d311fb8e55710c1adac525\jetified-firebase-storage-16.0.4\AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\ff013b4fc7e4d944d6ceff7b942a15d4\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\ff013b4fc7e4d944d6ceff7b942a15d4\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\45cc7934c9952ce3efae3a5d56a609bb\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\45cc7934c9952ce3efae3a5d56a609bb\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\b07ac71af2d311fb8e55710c1adac525\jetified-firebase-storage-16.0.4\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\b07ac71af2d311fb8e55710c1adac525\jetified-firebase-storage-16.0.4\AndroidManifest.xml:24:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\ff013b4fc7e4d944d6ceff7b942a15d4\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\fa183ab671f048f76a365289478d9161\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
@@ -376,3 +421,13 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\91982\.gradle\c
 		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\91982\.gradle\caches\transforms-2\files-2.1\4dc2c4efc02adfaef3e8bf3ee12100b4\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75

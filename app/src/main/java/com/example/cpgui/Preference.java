@@ -68,11 +68,13 @@ public class Preference extends AppCompatActivity {
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()) {
                             firebaseAuth.getCurrentUser().sendEmailVerification();
-                           phone.startphoneauth();
-                            firebaseAuth.signOut();
+                          // phone.startphoneauth();
+                          //  firebaseAuth.signOut();
                             progressDialog.dismiss();
                             Toast.makeText(Preference.this, "Process completed", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(Preference.this, MainActivity.class));
+                            Intent intent=new Intent(Preference.this, OneTimePass.class);
+                            intent.putExtra("phoneno.",phoneNumber.getText().toString().trim());
+                            startActivity(intent);
                         } else {
                             progressDialog.dismiss();
                             Toast.makeText(Preference.this, "Process not completed", Toast.LENGTH_SHORT).show();
@@ -93,10 +95,12 @@ public class Preference extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             firebaseAuth.getCurrentUser().sendEmailVerification();
                             // phone.verifyPhoneNumber(stdData.getPhoneNumber(),7, TimeUnit.MINUTES,Preference.this);
-                            firebaseAuth.signOut();
+                           // firebaseAuth.signOut();
                             progressDialog.dismiss();
                             Toast.makeText(Preference.this, "Process completed", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(Preference.this, MainActivity.class));
+                            Intent intent=new Intent(Preference.this, OneTimePass.class);
+                            intent.putExtra("phoneno.",phoneNumber.getText().toString().trim());
+                            startActivity(intent);
                         } else {
                             progressDialog.dismiss();
                             Toast.makeText(Preference.this, "Process not completed", Toast.LENGTH_SHORT).show();
@@ -140,9 +144,9 @@ public class Preference extends AppCompatActivity {
     }
     private boolean validField()
     {
-        if(phoneNumber.getText().toString().isEmpty())
+        if(phoneNumber.getText().toString().trim().isEmpty())
         {
-            Toast.makeText(Preference.this,"Please fill ll fields ",Toast.LENGTH_SHORT).show();
+            Toast.makeText(Preference.this,"Please fill all fields ",Toast.LENGTH_SHORT).show();
             return false;
         }
         return true;

@@ -23,6 +23,10 @@ import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+import android.content.Intent;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
 
 
 import java.util.concurrent.TimeUnit;
@@ -31,17 +35,111 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeUnit;
 
 public class OneTimePass extends AppCompatActivity {
-public PhoneAuthProvider phone ;
-    private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks;
-public StdData stdData=new StdData();
+    public PhoneAuthProvider phone;
+    private String mVerificationId;
+    private EditText editTextCode;
+    private FirebaseAuth mAuth;
+    public String verificationId;
+    //private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks;
+   // public StdData stdData = new StdData();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_one_time_pass);
+        mAuth = FirebaseAuth.getInstance();
+        editTextCode = findViewById(R.id.editText);
+        Intent intentph = getIntent();
+        String phoneno = intentph.getStringExtra("phoneno.");
+        startphoneauth(phoneno);
+
+        findViewById(R.id.submitotp).setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                String code = editTextCode.getText().toString().trim();
+                if (code.isEmpty() || code.length() < 6) {
+                    editTextCode.setError("Enter valid code");
+                    editTextCode.requestFocus();
+                    return;
+                }
+                verifyVerificationCode(code);
+            }
+
+        });
     }
 
-    public void startphoneauth() {
-        phone.getInstance().verifyPhoneNumber(stdData.getPhoneNumber(), 60, TimeUnit.SECONDS, this, mCallbacks);
+    public void startphoneauth(String phoneno) {
+
+        phone.getInstance().verifyPhoneNumber("+91" + phoneno, 120, TimeUnit.SECONDS, this, mCallbacks);
     }
+private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks=new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
+
+
+    @Override
+    public void onCodeSent(String s, PhoneAuthProvider.ForceResendingToken forceResendingToken) {
+        super.onCodeSent(s, forceResendingToken);
+        verificationId=s;
+    }
+
+    @Override
+    public void onVerificationCompleted(PhoneAuthCredential phoneAuthCredential) {
+         String code =phoneAuthCredential.getSmsCode();
+         if(code!=null){
+             verifyVerificationCode(code);
+         }
+    }
+
+    @Override
+    public void onVerificationFailed(FirebaseException e) {
+        Toast.makeText(OneTimePass.this,e.getMessage(),Toast.LENGTH_LONG).show();
+
+    }
+};
+
+    private void verifyVerificationCode(String code) {
+        //creating the credential
+        PhoneAuthCredential credential = PhoneAuthProvider.getCredential(verificationId, code);
+
+        //signing the user
+        signInWithPhoneAuthCredential(credential);
+    }
+
+
+    private void signInWithPhoneAuthCredential(PhoneAuthCredential credential) {
+        mAuth.signInWithCredential(credential)
+                .addOnCompleteListener(OneTimePass.this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            //verification successful we will start the profile activity
+                            Intent intent = new Intent(OneTimePass.this, FinalSpace.class);
+                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                            startActivity(intent);
+
+                        } else {
+
+                            //verification unsuccessful.. display an error message
+
+                            String message = "Somthing is wrong, we will fix it soon...";
+
+                            if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
+                                message = "Invalid code entered...";
+                            }
+
+                            Snackbar snackbar = Snackbar.make(findViewById(R.id.parent), message, Snackbar.LENGTH_LONG);
+                            snackbar.setAction("Dismiss", new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+
+                                }
+                            });
+                            snackbar.show();
+                        }
+                    }
+                });
+    }
+
 }
+
 
