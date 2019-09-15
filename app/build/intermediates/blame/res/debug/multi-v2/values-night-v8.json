@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\85e257a6babe96d3b8085bcd76499598\\appcompat-1.0.2\\res\\values-night-v8\\values-night-v8.xml",

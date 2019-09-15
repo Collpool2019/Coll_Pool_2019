@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
+            "outputFile": "D:\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\aeda49ba652eefff6469e8078ea9bf44\\jetified-play-services-base-16.0.1\\res\\values-pl\\values.xml",

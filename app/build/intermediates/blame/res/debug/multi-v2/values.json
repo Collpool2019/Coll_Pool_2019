@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\aeda49ba652eefff6469e8078ea9bf44\\jetified-play-services-base-16.0.1\\res\\values\\values.xml",
@@ -19,19 +19,48 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Coll_Pool_2019\\app\\src\\debug\\res\\values\\google_maps_api.xml",
                     "from": {
                         "startLines": "-1",
                         "startColumns": "-1",
                         "startOffsets": "-1"
                     },
                     "to": {
-                        "startLines": "671",
+                        "startLines": "639",
                         "startColumns": "4",
-                        "startOffsets": "42917",
-                        "endLines": "676",
-                        "endColumns": "12",
-                        "endOffsets": "43194"
+                        "startOffsets": "40119",
+                        "endColumns": "137",
+                        "endOffsets": "40252"
+                    }
+                },
+                {
+                    "source": "D:\\Coll_Pool_2019\\app\\src\\main\\res\\values\\coll_pool_logo_background.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "214",
+                        "startColumns": "4",
+                        "startOffsets": "10793",
+                        "endColumns": "59",
+                        "endOffsets": "10848"
+                    }
+                },
+                {
+                    "source": "D:\\Coll_Pool_2019\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "189,196,207,215,216,217",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "8996,9488,10378,10853,10899,10946",
+                        "endColumns": "43,44,50,45,46,50",
+                        "endOffsets": "9035,9528,10424,10894,10941,10992"
                     }
                 },
                 {
@@ -65,23 +94,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\generated\\fabric\\res\\debug\\values\\com_crashlytics_build_id.xml",
-                    "from": {
-                        "startLines": "8",
-                        "startColumns": "0",
-                        "startOffsets": "311",
-                        "endColumns": "162",
-                        "endOffsets": "473"
-                    },
-                    "to": {
-                        "startLines": "611",
-                        "startColumns": "4",
-                        "startOffsets": "36579",
-                        "endColumns": "164",
-                        "endOffsets": "36739"
-                    }
-                },
-                {
                     "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\91482f6452f8e2279fb096c6daca6c99\\cardview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
@@ -98,22 +110,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\src\\main\\res\\values\\coll_pool_logo_background.xml",
-                    "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "214",
-                        "startColumns": "4",
-                        "startOffsets": "10793",
-                        "endColumns": "59",
-                        "endOffsets": "10848"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "D:\\Coll_Pool_2019\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "-1,-1",
                         "startColumns": "-1,-1",
@@ -125,51 +122,6 @@
                         "startOffsets": "21080,21138",
                         "endColumns": "57,55",
                         "endOffsets": "21133,21189"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "631,634,635,636,637,638,640,653",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "39139,39597,39710,39792,39896,39999,40257,41689",
-                        "endColumns": "143,112,81,103,102,119,101,78",
-                        "endOffsets": "39278,39705,39787,39891,39994,40114,40354,41763"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "189,196,207,215,216,217",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "8996,9488,10378,10853,10899,10946",
-                        "endColumns": "43,44,50,45,46,50",
-                        "endOffsets": "9035,9528,10424,10894,10941,10992"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\src\\debug\\res\\values\\google_maps_api.xml",
-                    "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "639",
-                        "startColumns": "4",
-                        "startOffsets": "40119",
-                        "endColumns": "137",
-                        "endOffsets": "40252"
                     }
                 },
                 {
@@ -236,6 +188,22 @@
                     }
                 },
                 {
+                    "source": "D:\\Coll_Pool_2019\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "671",
+                        "startColumns": "4",
+                        "startOffsets": "42917",
+                        "endLines": "676",
+                        "endColumns": "12",
+                        "endOffsets": "43194"
+                    }
+                },
+                {
                     "source": "C:\\Users\\rajpa\\.gradle\\caches\\transforms-2\\files-2.1\\d5cc3290d718e21788ec420e745c06fe\\transition-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
@@ -267,7 +235,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajpa\\AndroidStudioProjects\\Coll_Pool_2019\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\Coll_Pool_2019\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "631,634,635,636,637,638,640,653",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "39139,39597,39710,39792,39896,39999,40257,41689",
+                        "endColumns": "143,112,81,103,102,119,101,78",
+                        "endOffsets": "39278,39705,39787,39891,39994,40114,40354,41763"
+                    }
+                },
+                {
+                    "source": "D:\\Coll_Pool_2019\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
                         "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
@@ -280,6 +263,23 @@
                         "endLines": "5,16,20,604,605,606,630,642,643,644,645,646,654,655,657,659,660,661",
                         "endColumns": "19,19,19,62,56,42,61,75,65,39,55,55,46,52,43,58,54,47",
                         "endOffsets": "252,728,858,36002,36059,36102,39134,40583,40649,40689,40745,40801,41810,41863,41960,42090,42145,42193"
+                    }
+                },
+                {
+                    "source": "D:\\Coll_Pool_2019\\app\\build\\generated\\fabric\\res\\debug\\values\\com_crashlytics_build_id.xml",
+                    "from": {
+                        "startLines": "8",
+                        "startColumns": "0",
+                        "startOffsets": "311",
+                        "endColumns": "162",
+                        "endOffsets": "473"
+                    },
+                    "to": {
+                        "startLines": "611",
+                        "startColumns": "4",
+                        "startOffsets": "36579",
+                        "endColumns": "164",
+                        "endOffsets": "36739"
                     }
                 },
                 {

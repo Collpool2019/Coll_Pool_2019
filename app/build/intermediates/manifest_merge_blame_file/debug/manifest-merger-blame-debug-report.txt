@@ -6,16 +6,16 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
+8-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml
+9-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:57:5-79
-11-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:57:22-76
+11-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:57:5-79
+11-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:57:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:59:5-67
-12-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:59:22-64
+12-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:59:5-67
+12-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:59:22-64
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 13-->[com.google.firebase:firebase-database:16.0.4] C:\Users\rajpa\.gradle\caches\transforms-2\files-2.1\0f3e16f96f207ee558ce842b08b0c1ce\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
 13-->[com.google.firebase:firebase-database:16.0.4] C:\Users\rajpa\.gradle\caches\transforms-2\files-2.1\0f3e16f96f207ee558ce842b08b0c1ce\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
@@ -28,31 +28,31 @@
 17-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\rajpa\.gradle\caches\transforms-2\files-2.1\c3ee9bffb973df9bf1f18ace19023c47\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
 18
 19    <application
-19-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:5:5-55:19
+19-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:5:5-55:19
 20        android:allowBackup="true"
-20-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:6:9-35
+20-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:6:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.0.1] C:\Users\rajpa\.gradle\caches\transforms-2\files-2.1\241b89e013db22b59a4d22b3f2fa0913\core-1.0.1\AndroidManifest.xml:22:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/coll_pool_logo"
-23-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:7:9-46
+23-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:7:9-46
 24        android:label="Coll-Pool"
-24-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:8:9-34
+24-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:8:9-34
 25        android:roundIcon="@mipmap/coll_pool_logo_round"
-25-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:9:9-57
+25-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:9:9-57
 26        android:screenOrientation="portrait"
-26-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:10:9-45
+26-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:10:9-45
 27        android:supportsRtl="true"
-27-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:11:9-35
+27-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:11:9-35
 28        android:testOnly="true"
 29        android:theme="@style/AppTheme" >
-29-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:12:9-40
+29-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:12:9-40
 30        <activity android:name="com.example.cpgui.OneTimePass" />
-30-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:13:9-58
-30-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:13:19-46
+30-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:13:9-58
+30-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:13:19-46
 31        <activity android:name="com.example.cpgui.Preference" />
-31-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:14:9-48
-31-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:14:19-45
+31-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:14:9-48
+31-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:14:19-45
 32        <!--
 33             The API key for Google Maps-based APIs is defined as a string resource.
 34             (See the file "res/values/google_maps_api.xml").
@@ -62,67 +62,67 @@
 38             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 39        -->
 40        <activity
-40-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:23:9-26:52
+40-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:23:9-26:52
 41            android:name="com.example.cpgui.FinalSpace"
-41-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:24:13-39
+41-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:24:13-39
 42            android:label="@string/title_activity_final_space"
-42-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:25:13-63
+42-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:25:13-63
 43            android:screenOrientation="portrait" />
-43-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:26:13-49
+43-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:26:13-49
 44        <activity
-44-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:27:9-29:52
+44-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:27:9-29:52
 45            android:name="com.example.cpgui.SignUpFaculty"
-45-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:28:13-42
+45-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:28:13-42
 46            android:screenOrientation="portrait" />
-46-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:29:13-49
+46-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:29:13-49
 47        <activity
-47-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:30:9-32:52
+47-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:30:9-32:52
 48            android:name="com.example.cpgui.SignUpPro"
-48-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:31:13-38
+48-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:31:13-38
 49            android:screenOrientation="portrait" />
-49-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:32:13-49
+49-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:32:13-49
 50        <activity
-50-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:33:9-35:52
+50-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:33:9-35:52
 51            android:name="com.example.cpgui.SignUp"
-51-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:34:13-35
+51-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:34:13-35
 52            android:screenOrientation="portrait" />
-52-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:35:13-49
+52-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:35:13-49
 53        <activity
-53-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:36:9-38:52
+53-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:36:9-38:52
 54            android:name="com.example.cpgui.activity_login"
-54-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:37:13-43
+54-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:37:13-43
 55            android:screenOrientation="portrait" />
-55-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:38:13-49
+55-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:38:13-49
 56        <activity
-56-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:39:9-47:20
+56-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:39:9-47:20
 57            android:name="com.example.cpgui.MainActivity"
-57-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:40:13-41
+57-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:40:13-41
 58            android:screenOrientation="portrait" >
-58-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:41:13-49
+58-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:41:13-49
 59            <intent-filter>
-59-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:42:13-46:29
+59-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:42:13-46:29
 60                <action android:name="android.intent.action.MAIN" />
-60-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:43:17-69
-60-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:43:25-66
+60-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:43:17-69
+60-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:43:25-66
 61
 62                <category android:name="android.intent.category.LAUNCHER" />
-62-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:45:17-77
-62-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:45:27-74
+62-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:45:17-77
+62-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:45:27-74
 63            </intent-filter>
 64        </activity>
 65
 66        <meta-data
-66-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:49:9-51:55
+66-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:49:9-51:55
 67            android:name="com.google.android.geo.API_KEY"
-67-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:50:13-58
+67-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:50:13-58
 68            android:value="@string/google_maps_key" />
-68-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:51:13-52
+68-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:51:13-52
 69        <meta-data
-69-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:52:9-54:72
+69-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:52:9-54:72
 70            android:name="io.fabric.ApiKey"
-70-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:53:13-44
+70-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:53:13-44
 71            android:value="e5bf0450f449f892ff87cc640895ae39935b4551" />
-71-->C:\Users\rajpa\AndroidStudioProjects\Coll_Pool_2019\app\src\main\AndroidManifest.xml:54:13-69
+71-->D:\Coll_Pool_2019\app\src\main\AndroidManifest.xml:54:13-69
 72
 73        <activity
 73-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\rajpa\.gradle\caches\transforms-2\files-2.1\d594d77e894df2e940b82ece3b308c5f\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
