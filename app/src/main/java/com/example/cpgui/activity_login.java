@@ -71,7 +71,7 @@ public class activity_login extends AppCompatActivity {
     {
         if(validate())
         {
-            progressDialog.setMessage("Loging in");
+            progressDialog.setMessage("Logging in");
             progressDialog.show();
             firebaseAuth.signInWithEmailAndPassword(a,b).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
