@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\a08ffad8d2797afe624f5919e44592d7\\places-2.0.0\\res\\values-pt-rBR\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11",
-                        "startColumns": "0,0,0,0,0,0,0,0",
-                        "startOffsets": "188,261,326,416,482,529,599,675",
-                        "endColumns": "72,64,89,65,46,69,75,57",
-                        "endOffsets": "260,325,415,481,528,598,674,732"
-                    },
-                    "to": {
-                        "startLines": "49,50,51,52,53,54,55,56",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "5799,5876,5945,6039,6109,6160,6234,6314",
-                        "endColumns": "76,68,93,69,50,73,79,61",
-                        "endOffsets": "5871,5940,6034,6104,6155,6229,6309,6371"
-                    }
-                },
-                {
                     "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\f8ccfb448ba3545203b2c9319e236e39\\appcompat-1.1.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
@@ -103,6 +86,23 @@
                         "startOffsets": "6461",
                         "endColumns": "100",
                         "endOffsets": "6557"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\77caac8636923736752df91d0c7b38a3\\places-2.1.0\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11",
+                        "startColumns": "0,0,0,0,0,0,0,0",
+                        "startOffsets": "188,261,326,416,482,529,599,675",
+                        "endColumns": "72,64,89,65,46,69,75,57",
+                        "endOffsets": "260,325,415,481,528,598,674,732"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54,55,56",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "5799,5876,5945,6039,6109,6160,6234,6314",
+                        "endColumns": "76,68,93,69,50,73,79,61",
+                        "endOffsets": "5871,5940,6034,6104,6155,6229,6309,6371"
                     }
                 }
             ]

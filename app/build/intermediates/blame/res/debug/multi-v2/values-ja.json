@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\a08ffad8d2797afe624f5919e44592d7\\places-2.0.0\\res\\values-ja\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11",
-                        "startColumns": "0,0,0,0,0,0,0,0",
-                        "startOffsets": "184,248,304,389,448,492,559,617",
-                        "endColumns": "63,55,84,58,43,66,57,44",
-                        "endOffsets": "247,303,388,447,491,558,616,661"
-                    },
-                    "to": {
-                        "startLines": "49,50,51,52,53,54,55,56",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "5328,5396,5456,5545,5608,5656,5727,5789",
-                        "endColumns": "67,59,88,62,47,70,61,48",
-                        "endOffsets": "5391,5451,5540,5603,5651,5722,5784,5833"
-                    }
-                },
-                {
                     "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\1ce34ca8215b389ecb0f70b5323958b5\\jetified-play-services-basement-17.0.0\\res\\values-ja\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -103,6 +86,23 @@
                         "startOffsets": "2691,2797,2963,3085,3193,3384,3506,3641,3950,4143,4246,4410,4531,4710,4860,4950,5039",
                         "endColumns": "105,165,121,107,190,121,134,127,192,102,163,120,178,149,89,88,99",
                         "endOffsets": "2792,2958,3080,3188,3379,3501,3636,3764,4138,4241,4405,4526,4705,4855,4945,5034,5134"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\77caac8636923736752df91d0c7b38a3\\places-2.1.0\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11",
+                        "startColumns": "0,0,0,0,0,0,0,0",
+                        "startOffsets": "184,248,304,389,448,492,559,617",
+                        "endColumns": "63,55,84,58,43,66,57,44",
+                        "endOffsets": "247,303,388,447,491,558,616,661"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54,55,56",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "5328,5396,5456,5545,5608,5656,5727,5789",
+                        "endColumns": "67,59,88,62,47,70,61,48",
+                        "endOffsets": "5391,5451,5540,5603,5651,5722,5784,5833"
                     }
                 }
             ]

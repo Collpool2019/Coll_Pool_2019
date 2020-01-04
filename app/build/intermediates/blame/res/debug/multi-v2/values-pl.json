@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\77caac8636923736752df91d0c7b38a3\\places-2.1.0\\res\\values-pl\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11",
+                        "startColumns": "0,0,0,0,0,0,0,0",
+                        "startOffsets": "184,262,328,427,490,535,603,687",
+                        "endColumns": "77,65,98,62,44,67,83,57",
+                        "endOffsets": "261,327,426,489,534,602,686,744"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54,55,56",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "5765,5847,5917,6020,6087,6136,6208,6296",
+                        "endColumns": "81,69,102,66,48,71,87,61",
+                        "endOffsets": "5842,5912,6015,6082,6131,6203,6291,6353"
+                    }
+                },
+                {
                     "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\c6ed24259e187418524151309c91ad64\\play-services-base-17.1.0\\res\\values-pl\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -18,23 +35,6 @@
                         "startOffsets": "2817,2923,3123,3247,3359,3569,3696,3837,4164,4394,4505,4711,4841,5059,5250,5349,5445",
                         "endColumns": "105,199,123,111,209,126,140,127,229,110,205,129,217,190,98,95,112",
                         "endOffsets": "2918,3118,3242,3354,3564,3691,3832,3960,4389,4500,4706,4836,5054,5245,5344,5440,5553"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\a08ffad8d2797afe624f5919e44592d7\\places-2.0.0\\res\\values-pl\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11",
-                        "startColumns": "0,0,0,0,0,0,0,0",
-                        "startOffsets": "184,262,328,427,490,535,603,687",
-                        "endColumns": "77,65,98,62,44,67,83,57",
-                        "endOffsets": "261,327,426,489,534,602,686,744"
-                    },
-                    "to": {
-                        "startLines": "49,50,51,52,53,54,55,56",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "5765,5847,5917,6020,6087,6136,6208,6296",
-                        "endColumns": "81,69,102,66,48,71,87,61",
-                        "endOffsets": "5842,5912,6015,6082,6131,6203,6291,6353"
                     }
                 },
                 {

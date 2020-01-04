@@ -28,7 +28,6 @@
         android:roundIcon="@mipmap/coll_pool_logo_round"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.cpgui.OneTimePass" />
         <activity android:name="com.example.cpgui.Preference" />
@@ -72,14 +71,13 @@
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="e5bf0450f449f892ff87cc640895ae39935b4551" />
-        <!-- Autocomplete -->
+
         <activity
             android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
             android:exported="false"
-            android:hardwareAccelerated="true"
             android:label="@string/places_autocomplete_label"
-            android:theme="@style/PlacesAutocompleteThemeOverlay"
-            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+            android:theme="@style/PlacesAutocompleteOverlay"
+            android:windowSoftInputMode="adjustResize" >
         </activity>
 
         <service
@@ -108,16 +106,16 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
 
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.cpgui.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="com.google.android.gms.version"
