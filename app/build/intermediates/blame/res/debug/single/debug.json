@@ -20,12 +20,12 @@
         "source": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\src\\main\\res\\drawable-ldpi\\symbolsignup.png"
     },
     {
-        "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\f8ccfb448ba3545203b2c9319e236e39\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\layout_places_autocomplete_prediction.xml.flat",
         "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\77caac8636923736752df91d0c7b38a3\\places-2.1.0\\res\\layout\\places_autocomplete_prediction.xml"
+    },
+    {
+        "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\f8ccfb448ba3545203b2c9319e236e39\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\56b6cdfbd80af409835a31a4470c49f0\\core-1.1.0\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
-        "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\f8ccfb448ba3545203b2c9319e236e39\\appcompat-1.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\f8ccfb448ba3545203b2c9319e236e39\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\f8ccfb448ba3545203b2c9319e236e39\\appcompat-1.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
@@ -96,16 +96,16 @@
         "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\f8ccfb448ba3545203b2c9319e236e39\\appcompat-1.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
-        "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\3df2fd68af0236fb7b1a24eeed8b503b\\material-1.0.0\\res\\color\\mtrl_chip_close_icon_tint.xml"
+        "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_quantum_ic_search_grey600_24.png.flat",
+        "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\77caac8636923736752df91d0c7b38a3\\places-2.1.0\\res\\drawable-hdpi-v4\\quantum_ic_search_grey600_24.png"
     },
     {
         "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\f8ccfb448ba3545203b2c9319e236e39\\appcompat-1.1.0\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_quantum_ic_search_grey600_24.png.flat",
-        "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\77caac8636923736752df91d0c7b38a3\\places-2.1.0\\res\\drawable-hdpi-v4\\quantum_ic_search_grey600_24.png"
+        "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
+        "source": "C:\\Users\\91982\\.gradle\\caches\\transforms-2\\files-2.1\\3df2fd68af0236fb7b1a24eeed8b503b\\material-1.0.0\\res\\color\\mtrl_chip_close_icon_tint.xml"
     },
     {
         "merged": "C:\\Users\\91982\\AndroidStudioProjects\\Coll_Pool_2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
