@@ -94,8 +94,8 @@ public class SignUpFaculty extends AppCompatActivity {
     private void connect()
     {
         Intent intent=new Intent(this,Preference.class);
-        intent.putExtra("UsernameF",name.getText().toString());
-        intent.putExtra("EmailIdF",emailadd.getText().toString());
+        intent.putExtra("Username",name.getText().toString());
+        intent.putExtra("Emailid",emailadd.getText().toString());
         intent.putExtra("Id","From Faculty");
         startActivity(intent);
     }
